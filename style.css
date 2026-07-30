@@ -1,3 +1,25 @@
+ @font-face{
+    font-family:"poppins-regular" ;
+    src: url(fonts/Poppins-Regular.ttf);
+ }
+ @font-face{
+    font-family:"inter-regular";
+    src: url(fonts/Inter/static/Inter_28pt-Regular.ttf);
+ }
+ @font-face{
+    font-family:"poppins-medium";
+    src: url(fonts/Poppins-Medium.ttf);
+ }
+  @font-face{
+    font-family:"poppins-semibold";
+    src: url(fonts/Poppins-SemiBold.ttf);
+ }
+ @font-face{
+    font-family:"poppins-extralight";
+    src: url(fonts/Poppins-ExtraLight.ttf);
+ }
+
+
 .top-bar {
     background: #1A2B56;
     padding: 4px 0;
@@ -6,6 +28,7 @@
      font-size: 12px;
     font-weight: 500;
     color: white;
+     font-family:"inter-regular";
 }
 .top-content{
     display: flex;
@@ -15,4 +38,66 @@
     display: flex;
     margin-left:auto;
     color:white;
+     font-family:"poppins-regular" ;
+}
+.logoimg{
+    width:120px;
+    height:45px;
+    
+}
+.headerdiv{
+    width: 100%;
+    height: 60px;
+    
+}
+.custom-btn{
+    border-radius: 25px;
+    background-color: #64C6C2;
+    color: white;
+    text-decoration: none;
+      font-family:"poppins-medium";
+     padding: 10px 28px;
+    font-size: 16px;  
+}
+.navbar-nav.nav-link{
+    font-family:"poppins-regular" ;
+    font-size: 16px;
+    color: aqua;
+}
+.homeimg{
+    background:url("images/Rectangle 3.png");
+    min-height:700px; 
+    display: flex;
+    align-items:center;
+    background-position: center;
+    height: 700px;
+    
+}
+.overlay{
+    color: white;
+margin-top: 0px;
+    font-family:"poppins-semibold";
+    position: absolute;
+width: 516px;
+
+}
+.overlay h2{
+    font-size: 50px;
+    line-height: 1.75cm;
+    margin-bottom: 80px;
+}
+.line{
+    width:50px;
+    border-top: 1px solid #1A2B56;
+    
+}
+.PROVENsize{
+    font-family:"poppins-extralight";
+    font-size: 20px;
+}
+.aboutcontent{
+    margin-left: 75px;
+}
+.abouthead{
+    color:1A2B56;
 }
