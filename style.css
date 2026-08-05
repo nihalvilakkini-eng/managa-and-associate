@@ -349,6 +349,10 @@ border:none;
     padding:20px;
     color:white;
 }
+.servicehead{
+    font-size: 25px;
+    color: #1A2B56;
+}
 
 @media(max-width:992px){
 
@@ -383,6 +387,7 @@ border:none;
     padding: 5px 10px;
     font-size: 10px;
     margin-bottom: 10px;
+
 }
     .top-content{
         flex-direction:column;
@@ -399,6 +404,7 @@ border:none;
 
     .overlay h2{
         font-size:35px;
+        margin-bottom: 20px;
     }
 
     .PROVENsize{
@@ -415,10 +421,12 @@ border:none;
 
     .bluecontentdiv{
         padding:25px;
+        margin-top: -25px;
     }
 
     .blueimage img{
         height:auto;
+        margin-top:-26px;
     }
 
     .Testimonialhead{
@@ -436,4 +444,59 @@ border:none;
     .footerdiv .row > div{
         margin-bottom:30px;
     }
+.second-section{
+margin-top: -77px;
 }
+ .testimonial-img{
+        margin-top: -25px;
+    }
+ .prev-btn,
+    .next-btn {
+        position: relative;
+        top: 58px; 
+        font-size: clamp( 2vw);
+    }
+.prev-btn{
+    left: -24px; 
+}
+
+.next-btn{
+    right: -28px;
+}
+.testimonial-img{
+        width: 250px;
+        display: flex;
+        align-items: center;
+        
+}
+.section-head{
+    right: 100px;
+  font-size: 6px;
+}
+ .contentdiv{
+        margin-top: -40px;   
+    }
+ .news-row{
+         transform: translateY(-40px);
+        
+    }
+.newsimg{
+    width:100%;
+}
+ .contactdiv,
+    .white-box{
+        /* position: static; */
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        transform: none;
+        width: 408px;
+    }
+    .footerdiv{
+        margin-top: 50px;
+    }
+}
+
+
+
