@@ -496,6 +496,14 @@ height: 250px;
           .carousel-control-next img { 
             width: 14px;
          }
+         .carousel-control-prev{
+margin-top:15px ;
+margin-left: -27px;
+         }
+         .carousel-control-next{
+margin-top:15px ;
+margin-right: -45px;
+         }
          }
 
 @media (min-width: 576px) and (max-width: 767px){
@@ -556,24 +564,27 @@ width: 100%;
 .white-box{
    position: static !important;
    margin-top: 140px;
-   width: 100%px;
+   width: 100%;
 height: 250px;
 }
 .carousel-control-prev {
      left: 0 !important; 
+     margin-top:15px ;
+margin-left: -80px;
+ font-size: 10px;
+         gap: 4px;
+          width: 14px;
     }
      .carousel-control-next { 
         right: 0 !important;
-     }
-      .carousel-control-prev,
-       .carousel-control-next { 
-        font-size: 10px;
+        margin-top:15px ;
+margin-right: -80px;
+ font-size: 10px;
          gap: 4px;
-         }
-          .carousel-control-prev img,
-           .carousel-control-next img { 
-            width: 14px;
-         } 
+          width: 14px;
+     }
+      
+        
         }
 
 
@@ -698,55 +709,82 @@ width: 100%;
     margin-left: 0px;
     margin-top: 174px;
 }
+
 .carousel-control-prev {
-     left: -2% !important; 
-    } 
-    .carousel-control-next {
-         right: -2% !important; 
-        } 
-        .carousel-control-prev, 
-        .carousel-control-next { 
-            font-size: 12px;
-             gap: 5px;
-             } 
-             .carousel-control-prev img,
-              .carousel-control-next img { 
-                width: 16px; 
-            }
-             }
+    left: -2% !important;
+    margin-top:29px ;
+    margin-left: -60px;
+}
 
-@media(min-width: 992px) and (max-width:1199px) {
-.blueimage img{
-   height: 558px;
+.carousel-control-next {
+    right: -2% !important;
+     margin-top:29px ;
+    margin-right:-68px ;
 }
-.first-section {
-   margin-bottom: -68px;
-}
-.second-section{
-    margin-top:-40px;
-}
+
 .carousel-control-prev,
-.carousel-control-next {  
-    width: auto;
-     color: #1A2B56 !important;
-     gap: 8px; 
-     top: 50% !important;
-      bottom: auto; 
-      transform: translateY(-50%);
-     }
-     .carousel-control-prev {
-         left: -5% !important; 
-        } 
-        .carousel-control-next {
-             right: -5% !important;
-             } 
-             .carousel-control-prev img,
-              .carousel-control-next img {
-                 width: 20px; 
-                }
+.carousel-control-next {
+    font-size: 12px;
+    gap: 5px;
+}
+
+.carousel-control-prev img,
+.carousel-control-next img {
+    width: 16px;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .blueimage img {
+        height: 558px;
+    }
+
+    .first-section {
+        margin-bottom: -68px;
+    }
+
+    .second-section {
+        margin-top: -40px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: auto;
+        color: #1A2B56 !important;
+        gap: 8px;
+        top: 50% !important;
+        bottom: auto;
+        transform: translateY(-50%);
+    }
+
+    .carousel-control-prev {
+        left: -5% !important;
+        margin-top: 29px;
+        margin-left: -80px;      
+    }
+
+    .carousel-control-next {
+        right: -5% !important;
+        margin-top: 29px;
+        margin-right: -80px;      
+    }
+
+    .carousel-control-prev img,
+    .carousel-control-next img {
+        width: 20px;
+    }
+
+    .white-box {
+        margin-top: 92px;
+        left: auto;        
+    }
 }
 
 
+@media(min-width: 1200px) and (max-width:1400px) {
+
+}
 /* @media(max-width:575px){
 .section-head h4{
 font-size: 12px;
